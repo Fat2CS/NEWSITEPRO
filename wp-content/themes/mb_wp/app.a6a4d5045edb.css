@@ -123,7 +123,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
   cursor: pointer;
 }
 button[disabled],
@@ -148,7 +148,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 input[type="search"] {
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -652,7 +652,7 @@ button.swiper-pagination-bullet {
 .swiper-scrollbar {
   border-radius: 10px;
   position: relative;
-  -ms-touch-action: none;
+  /* -ms-touch-action: none; */
   background: rgba(0, 0, 0, 0.1);
 }
 .swiper-container-horizontal > .swiper-scrollbar {
