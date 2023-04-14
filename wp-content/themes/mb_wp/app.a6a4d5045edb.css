@@ -2470,6 +2470,7 @@ html.night.active-menu .header__burger__close span {
 }
 .footer .content__info__mail .mail__top .textAbs {
   position: absolute;
+  /* bottom: 20px; */
   right: 100%;
   transform: translateX(100%);
   transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
@@ -2629,6 +2630,7 @@ html.night .footer svg path {
   position: relative;
   pointer-events: all;
   width: 100%;
+  margin-top: 17%;
 }
 @media only screen and (max-width: 1280px) {
   .next .content__info {
@@ -2674,6 +2676,12 @@ html.night .footer svg path {
     height: 120px;
   }
 }
+@media only screen and (min-width: 2160px) {
+  .mail_top {
+    top: 120px;
+  }
+}
+
 @media only screen and (max-width: 720px) {
   .next .content__info__mail .mail__top {
     height: 40px;
@@ -2812,6 +2820,7 @@ html.night .footer svg path {
   transform: translateY(0);
 }
 .next .content__info__mail:hover .mail__top .textAbs {
+  /* bottom: 25; */
   right: 0;
   transform: translateX(0);
 }
