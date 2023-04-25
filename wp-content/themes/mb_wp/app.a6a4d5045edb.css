@@ -2300,7 +2300,7 @@ html.night.active-menu .header__burger__close span {
   line-height: 1;
   position: relative;
   overflow: hidden;
-  width: 45%;
+  width: 55%;
   transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   font-size: 5.56vw;
   line-height: 5.56vw;
@@ -4480,11 +4480,29 @@ html.night .module-postcontent .text .mail .arrow path {
     padding-top: 102px;
   }
 }
+
+.module-aboutintro .content__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 12.22vw;
+  text-transform: uppercase;
+}
+.module-aboutintro .titlebottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 15.22vw;
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 960px) {
   .module-aboutintro {
     padding-top: 56px;
   }
 }
+
 .module-aboutintro .content {
   display: flex;
   flex-direction: column;
@@ -4569,6 +4587,7 @@ html.night .module-postcontent .text .mail .arrow path {
   object-fit: cover;
 }
 .module-aboutintro .content__reel .btnStart {
+  display: none;
   border: 0.28vw solid #fff;
   width: 12.36vw;
   height: 6.11vw;
@@ -5214,6 +5233,7 @@ html.night .module-aboutteamlist .content__el {
   }
 }
 .module-aboutselector .content__selectors {
+  display: none;
   width: 100%;
   padding-top: 12px;
   padding-bottom: 2px;
@@ -5252,18 +5272,21 @@ html.night .module-aboutteamlist .content__el {
 }
 @media only screen and (min-width: 2160px) {
   .module-aboutselector .content__selectors__el {
+    display: none;
     font-size: 120px;
     line-height: 120px;
   }
 }
 @media only screen and (max-width: 720px) {
   .module-aboutselector .content__selectors__el {
+    display: none;
     font-size: 40px;
     line-height: 40px;
   }
 }
 .module-aboutselector .content__selectors__el span {
   transform: translateY(2%);
+  display: none;
 }
 @media only screen and (min-width: 2160px) {
   .module-aboutselector .content__selectors__el {
@@ -5409,7 +5432,7 @@ html.night .module-aboutteamlist .content__el {
     margin-top: 8px;
   }
   .module-aboutselector .content__options__el .el__line .el__line__rightxs {
-    display: inline;
+    display: none;
   }
   .module-aboutselector
     .content__options__el
@@ -5422,7 +5445,7 @@ html.night .module-aboutteamlist .content__el {
     display: none;
   }
   .module-aboutselector .content__options__el .el__line .el__line__left {
-    display: inline;
+    display: none;
   }
 }
 .module-aboutselector .content__options__el .el__line__rightxs {
